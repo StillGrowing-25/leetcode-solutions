@@ -1,5 +1,23 @@
 # Reverse Integer
 
+# Problem Description [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+-Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+-Assume the environment does not allow you to store 64-bit integers (signed or unsigned)
+-Example 1:
+Input: x = 123
+Output: 321
+
+Example 2:
+Input: x = -123
+Output: -321
+
+Example 3:
+Input: x = 120
+Output: 21
+
+Constraints:
+-231 <= x <= 231 - 1
+
 # Intuition
 To reverse an integer, repeatedly extract its last digit using the modulo (`%`) operator and append it to a new number. After extracting a digit, remove it from the original number by dividing by `10`.
 Since the reversed number may exceed the 32-bit signed integer range `[-2^31, 2^31 - 1]`, we check for overflow during the construction of the reversed number and return `0` if it occurs.
