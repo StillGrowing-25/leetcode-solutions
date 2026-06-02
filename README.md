@@ -17,6 +17,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 # Languages Used
 - C++
+- Java
   
 # Topics Covered
 - Arrays
@@ -35,7 +36,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 1       |
+| Arrays  | 3       |
 | Strings | 0       |
 | Linked List | 0   |
 | Stack   | 0       |
@@ -48,7 +49,9 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 7 | Reverse Integer | Easy |
+| 1 | Two Sum | Easy |
+| 4 | Median of Two Sorted Arrays | Hard |
+| 7 | Reverse Integer | Medium |
 
 # Repository Structure
 ```text
