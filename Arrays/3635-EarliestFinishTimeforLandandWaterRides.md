@@ -1,19 +1,22 @@
-# Earliest Finish Time for Land and Water Rides I
+# Earliest Finish Time for Land and Water Rides
 
 ## Problem Description
+
 [LeetCode 3633. Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)
 
 You are given two categories of theme park attractions: **land rides** and **water rides**.
 
 ### Land rides
-- `landStartTime[i]` – the earliest time the `i-th` land ride can be boarded.
-- `landDuration[i]` – the duration of the `i-th` land ride.
+
+* `landStartTime[i]` – the earliest time the `i-th` land ride can be boarded.
+* `landDuration[i]` – the duration of the `i-th` land ride.
 
 ### Water rides
-- `waterStartTime[j]` – the earliest time the `j-th` water ride can be boarded.
-- `waterDuration[j]` – the duration of the `j-th` water ride.
 
-A tourist must experience exactly **one land ride** and **one water ride**, in either order.
+* `waterStartTime[j]` – the earliest time the `j-th` water ride can be boarded.
+* `waterDuration[j]` – the duration of the `j-th` water ride.
+
+A tourist must experience exactly one ride from each category, in either order.
 
 A ride may be started at its opening time or any later moment.
 
@@ -25,14 +28,18 @@ Return the earliest possible time at which the tourist can finish both rides.
 
 ---
 
+# Brute Force Approach
+
 ## Intuition
 
-The tourist must take exactly one ride from each category. Since the order is not fixed, we need to consider both possibilities:
+Since the tourist must take one land ride and one water ride, we can simply try every possible combination.
 
-1. Land Ride → Water Ride
-2. Water Ride → Land Ride
+For each pair:
 
-For every pair of rides, we calculate when the first ride finishes. If the second ride is already open, we start it immediately; otherwise, we wait until it opens. We keep track of the minimum finishing time among all possible combinations.
+1. Take the land ride first and then the water ride.
+2. Take the water ride first and then the land ride.
+3. Compute the finishing time.
+4. Keep track of the minimum finishing time.
 
 ---
 
@@ -40,25 +47,19 @@ For every pair of rides, we calculate when the first ride finishes. If the secon
 
 ### Land → Water
 
-1. Choose a land ride.
-2. Calculate its finishing time:
-   ```cpp
-   finishLand = landStartTime[i] + landDuration[i];
-   ```
-3. Check every water ride:
-   - If the water ride is already open, board it immediately.
-   - Otherwise, wait until it opens.
-4. Calculate the final finishing time.
-5. Update the minimum answer.
+For every land ride:
+
+1. Compute when it finishes.
+2. For every water ride:
+
+   * If the water ride is already open, start immediately.
+   * Otherwise, wait until it opens.
+3. Compute the final completion time.
+4. Update the minimum answer.
 
 ### Water → Land
 
-1. Choose a water ride.
-2. Calculate its finishing time.
-3. Repeat the same process with every land ride.
-4. Update the minimum answer.
-
-Finally, return the smallest finishing time obtained.
+Repeat the same process with the order reversed.
 
 ---
 
@@ -66,30 +67,15 @@ Finally, return the smallest finishing time obtained.
 
 ### Time Complexity: O(n × m)
 
-- The first nested loop checks all Land-Water combinations.
-- The second nested loop checks all Water-Land combinations.
-
-Therefore, the overall time complexity is:
-
-```text
-O(n × m)
-```
-
-where:
-- `n` = number of land rides
-- `m` = number of water rides
+Every land ride is paired with every water ride.
 
 ### Space Complexity: O(1)
 
 Only a few extra variables are used.
 
-```text
-O(1)
-```
-
 ---
 
-## Code
+## Brute Force Code
 
 ```cpp
 class Solution {
@@ -133,6 +119,229 @@ public:
         }
 
         return minimum;
+    }
+};
+```
+
+---
+
+# Optimal Approach
+
+## Intuition
+
+The brute-force solution checks every possible pair of rides, which is expensive for large inputs.
+
+Suppose the first ride finishes at time `t`.
+
+For a second ride:
+
+```cpp
+finishTime = max(t, startTime) + duration
+```
+
+This creates two cases:
+
+### Case 1: Ride already open
+
+```cpp
+startTime <= t
+```
+
+Then:
+
+```cpp
+finishTime = t + duration
+```
+
+To minimize the answer, we only need the minimum duration among all rides already open.
+
+---
+
+### Case 2: Ride not open yet
+
+```cpp
+startTime > t
+```
+
+Then:
+
+```cpp
+finishTime = startTime + duration
+```
+
+To minimize the answer, we only need the minimum value of:
+
+```cpp
+startTime + duration
+```
+
+among rides that are still closed.
+
+Instead of checking every ride repeatedly, we preprocess these values.
+
+---
+
+## Approach
+
+1. Sort rides by opening time.
+2. Build a prefix minimum array storing the smallest duration seen so far.
+3. Build a suffix minimum array storing the smallest value of:
+
+```cpp
+startTime + duration
+```
+
+from each position onward.
+4. For each first ride:
+
+* Calculate its finishing time.
+* Use binary search to separate rides into:
+
+  * Already open
+  * Not yet open
+* Use the precomputed arrays to get the best possible second ride instantly.
+
+5. Repeat for both ride orders:
+
+   * Land → Water
+   * Water → Land
+
+---
+
+## Complexity Analysis
+
+### Time Complexity
+
+Sorting:
+
+```text
+O(n log n + m log m)
+```
+
+Binary search for every ride:
+
+```text
+O(n log m + m log n)
+```
+
+Overall:
+
+```text
+O((n + m) log(n + m))
+```
+
+### Space Complexity
+
+```text
+O(n + m)
+```
+
+for auxiliary arrays.
+
+---
+
+## Optimal Code
+
+```cpp
+class Solution {
+public:
+
+    long long solve(vector<int>& startTime,
+                    vector<int>& duration,
+                    vector<int>& otherStartTime,
+                    vector<int>& otherDuration) {
+
+        int m = otherStartTime.size();
+
+        vector<pair<int,int>> rides;
+
+        for(int i = 0; i < m; i++) {
+            rides.push_back({otherStartTime[i], otherDuration[i]});
+        }
+
+        sort(rides.begin(), rides.end());
+
+        vector<int> starts(m);
+        vector<long long> prefMinDuration(m);
+        vector<long long> suffMinFinish(m);
+
+        for(int i = 0; i < m; i++) {
+            starts[i] = rides[i].first;
+        }
+
+        prefMinDuration[0] = rides[0].second;
+
+        for(int i = 1; i < m; i++) {
+            prefMinDuration[i] =
+                min(prefMinDuration[i-1],
+                    (long long)rides[i].second);
+        }
+
+        suffMinFinish[m-1] =
+            (long long)rides[m-1].first +
+            rides[m-1].second;
+
+        for(int i = m-2; i >= 0; i--) {
+
+            suffMinFinish[i] =
+                min(suffMinFinish[i+1],
+                    (long long)rides[i].first +
+                    rides[i].second);
+        }
+
+        long long minimum = LLONG_MAX;
+
+        for(int i = 0; i < startTime.size(); i++) {
+
+            long long finishFirst =
+                (long long)startTime[i] +
+                duration[i];
+
+            int pos =
+                upper_bound(starts.begin(),
+                            starts.end(),
+                            finishFirst)
+                - starts.begin();
+
+            long long best = LLONG_MAX;
+
+            if(pos > 0) {
+                best =
+                    min(best,
+                        finishFirst +
+                        prefMinDuration[pos-1]);
+            }
+
+            if(pos < m) {
+                best =
+                    min(best,
+                        suffMinFinish[pos]);
+            }
+
+            minimum = min(minimum, best);
+        }
+
+        return minimum;
+    }
+
+    int earliestFinishTime(vector<int>& landStartTime,
+                           vector<int>& landDuration,
+                           vector<int>& waterStartTime,
+                           vector<int>& waterDuration) {
+
+        long long landToWater =
+            solve(landStartTime,
+                  landDuration,
+                  waterStartTime,
+                  waterDuration);
+
+        long long waterToLand =
+            solve(waterStartTime,
+                  waterDuration,
+                  landStartTime,
+                  landDuration);
+
+        return (int)min(landToWater, waterToLand);
     }
 };
 ```
