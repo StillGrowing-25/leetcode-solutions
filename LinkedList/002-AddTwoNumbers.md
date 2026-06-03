@@ -1,1 +1,64 @@
+# Reverse Integer
 
+# Problem Description [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+- Given a signed 32-bit integer `x`, return `x` with its digits reversed. If reversing `x` causes the value to go outside the signed 32-bit integer range `[-2^31, 2^31 - 1]`, then return `0`.
+- Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+
+- Example 1:
+Input: x = 123
+Output: 321
+
+- Example 2:
+Input: x = -123
+Output: -321
+
+- Example 3:
+Input: x = 120
+Output: 21
+
+Constraints:
+$-2^{31} \le x \le 2^{31} - 1$
+
+# Intuition
+To reverse an integer, we can repeatedly extract its last digit using the modulo (`%`) operator and append it to a new number. After extracting a digit, we remove it from the original number by dividing it by `10`. Since the reversed number may exceed the 32-bit signed integer range, we must check for overflow at each step during the construction of the reversed number and return `0` if it occurs.
+
+# Approach
+1. Initialize a variable `y` to `0` to store the reversed number.
+2. While `x` is not zero:
+   * Extract the last digit of `x` using `x % 10`.
+   * Append the digit to `y` using the mathematical shift-and-add operation: `y = y * 10 + d`.
+   * Check whether `y` has exceeded the 32-bit integer boundaries (`INT_MAX` or `INT_MIN`). If it has, immediately return `0`.
+   * Remove the last digit from `x` using integer division: `x /= 10`.
+3. If the loop finishes without an overflow, return the final reversed number `y`.
+
+# Complexity Analysis
+
+# Time Complexity: O(log n)
+The loop runs once for each digit in the integer. Since the number of digits in an integer $n$ is proportional to $\log_{10}(n)$, the time complexity is **O(log n)**.
+
+# Space Complexity: O(1)
+Only a few primitive variables (`y` and `d`) are used regardless of the size of the input integer, so the auxiliary space complexity is **O(1)**.
+
+# Code
+
+```cpp
+class Solution {
+public:
+    int reverse(int x) {
+        long int y, d;
+        y = 0;
+
+        while (x != 0) {
+            d = x % 10;
+            y = y * 10 + d;
+
+            if (y > INT_MAX || y < INT_MIN)
+                return 0;
+
+            x /= 10;
+        }
+
+        return y;
+    }
+};
+```
