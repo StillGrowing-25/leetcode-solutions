@@ -38,7 +38,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 |---------|---------|
 | Arrays  | 3       |
 | Strings | 0       |
-| Linked List | 0   |
+| Linked List | 1   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
@@ -50,6 +50,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 1 | Two Sum | Easy |
+| 2 | Add Two Numbers | Medium |
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
 
