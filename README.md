@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Topic | Problems Solved |
 |---------|---------|
 | Arrays  | 4       |
-| Strings | 1       |
+| Strings | 2       |
 | Linked List | 1   |
 | Stack   | 0       |
 | Queue   | 0       |
@@ -51,6 +51,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 |---|---------|------------|
 | 1 | Two Sum | Easy |
 | 2 | Add Two Numbers | Medium |
+| 3 | Longest Substring Without Repeating Characters | Medium |
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
 | 3635 | Earliest Finish Time | Medium |
