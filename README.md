@@ -36,8 +36,8 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 3       |
-| Strings | 0       |
+| Arrays  | 4       |
+| Strings | 1       |
 | Linked List | 1   |
 | Stack   | 0       |
 | Queue   | 0       |
@@ -53,6 +53,8 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 2 | Add Two Numbers | Medium |
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
+| 3635 | Earliest Finish Time | Medium |
+| 3751 | Total Waviness of Numbers in Range i | Medium |
 
 # Repository Structure
 ```text
