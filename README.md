@@ -36,7 +36,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 4       |
+| Arrays  | 5       |
 | Strings | 2       |
 | Linked List | 1   |
 | Stack   | 0       |
@@ -54,8 +54,9 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 3 | Longest Substring Without Repeating Characters | Medium |
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
+| 121 | Best Time to Buy and Sell Stock | Easy |
 | 3635 | Earliest Finish Time | Medium |
-| 3751 | Total Waviness of Numbers in Range i | Medium |
+| 3751 | Total Waviness of Numbers in Range I | Medium |
 
 # Repository Structure
 ```text
