@@ -98,10 +98,3 @@ public:
 | Recursion | `O(2^n)` | `O(n)` |
 | Dynamic Programming | `O(n)` | `O(n)` |
 
----
-
-## 📚 Topics
-- Recursion
-- Dynamic Programming
-- Math
-```
