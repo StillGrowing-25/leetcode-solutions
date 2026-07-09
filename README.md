@@ -31,19 +31,21 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 - Trees
 - Graphs
 - Dynamic Programming
+- Recursion
 
 # Progress Tracker
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 7       |
-| Strings | 2       |
+| Arrays  | 11       |
+| Strings | 3       |
 | Linked List | 1   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
 | Graphs  | 0       |
 | Dynamic Programming | 0 |
+| Recursion| 1      |
 
 # Solved Problems
 
@@ -55,11 +57,18 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
 | 27 | Remove Element | Easy |
+| 54 | Spiral Matrix | Medium |
 | 88 | Merge Sorted Array | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
+| 231 | Power of Two | Easy |
 | 283 | Move Zeroes | Easy |
+| 344 | Reverse String | Easy |
+| 350 | Intersection of Two Arrays II | Easy |
+| 766 | Toeplitz Matrix | Easy |
+| 867 | Transpose Matrix | Easy |
 | 3635 | Earliest Finish Time | Medium |
 | 3751 | Total Waviness of Numbers in Range I | Medium |
+
 # Repository Structure
 ```text
 leetcode-solutions
@@ -71,5 +80,7 @@ leetcode-solutions
 ├── Queue
 ├── Trees
 ├── Graphs
+├── Recursion
 └── DynamicProgramming
+
 ```
