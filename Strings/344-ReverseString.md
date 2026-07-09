@@ -1,4 +1,3 @@
-````md
 # Reverse String
 
 # Problem Description
@@ -74,4 +73,3 @@ public:
     }
 };
 ```
-````
