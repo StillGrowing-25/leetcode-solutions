@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 11       |
+| Arrays  | 12       |
 | Strings | 3       |
 | Linked List | 1   |
 | Stack   | 0       |
@@ -57,6 +57,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
 | 27 | Remove Element | Easy |
+| 48 | Rotate Image | Medium |
 | 54 | Spiral Matrix | Medium |
 | 88 | Merge Sorted Array | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
