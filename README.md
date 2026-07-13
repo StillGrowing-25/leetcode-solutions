@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 12       |
+| Arrays  | 14       |
 | Strings | 3       |
 | Linked List | 1   |
 | Stack   | 0       |
@@ -58,9 +58,11 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 7 | Reverse Integer | Medium |
 | 27 | Remove Element | Easy |
 | 48 | Rotate Image | Medium |
+| 53 | Maximum Subarray | Medium |
 | 54 | Spiral Matrix | Medium |
 | 88 | Merge Sorted Array | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
+| 189 | Rotate Array | Medium |
 | 231 | Power of Two | Easy |
 | 283 | Move Zeroes | Easy |
 | 344 | Reverse String | Easy |
