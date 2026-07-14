@@ -37,14 +37,14 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 14       |
+| Arrays  | 21      |
 | Strings | 3       |
 | Linked List | 1   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
 | Graphs  | 0       |
-| Dynamic Programming | 0 |
+| Dynamic Programming | 1 |
 | Recursion| 1      |
 
 # Solved Problems
@@ -56,19 +56,26 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 3 | Longest Substring Without Repeating Characters | Medium |
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
+| 26 | Remove Duplicates from Sorted Array | Easy |
 | 27 | Remove Element | Easy |
 | 48 | Rotate Image | Medium |
 | 53 | Maximum Subarray | Medium |
 | 54 | Spiral Matrix | Medium |
+| 73 | Set Matrix Zeros | Medium |
 | 88 | Merge Sorted Array | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
+| 136 | Single Number | Easy |
 | 189 | Rotate Array | Medium |
+| 238 | Product of Array Except Itself | Medium |
 | 231 | Power of Two | Easy |
 | 283 | Move Zeroes | Easy |
 | 344 | Reverse String | Easy |
 | 350 | Intersection of Two Arrays II | Easy |
+| 485 | Max Consecutive Ones | Easy |
+| 509 | Fibonacci Number | Easy |
 | 766 | Toeplitz Matrix | Easy |
 | 867 | Transpose Matrix | Easy |
+| 1752 | Check if Array is Sorted and Rotated | Easy
 | 3635 | Earliest Finish Time | Medium |
 | 3751 | Total Waviness of Numbers in Range I | Medium |
 
