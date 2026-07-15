@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 21      |
+| Arrays  | 22      |
 | Strings | 3       |
 | Linked List | 1   |
 | Stack   | 0       |
@@ -75,6 +75,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 509 | Fibonacci Number | Easy |
 | 766 | Toeplitz Matrix | Easy |
 | 867 | Transpose Matrix | Easy |
+| 918 | Maximum Sum Circular Subarray | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy
 | 3635 | Earliest Finish Time | Medium |
 | 3751 | Total Waviness of Numbers in Range I | Medium |
