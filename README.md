@@ -39,7 +39,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 |---------|---------|
 | Arrays  | 23      |
 | Strings | 3       |
-| Linked List | 1   |
+| Linked List | 2   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
@@ -76,6 +76,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 509 | Fibonacci Number | Easy |
 | 766 | Toeplitz Matrix | Easy |
 | 867 | Transpose Matrix | Easy |
+| 876 | Middle of the Linked List | Easy |
 | 918 | Maximum Sum Circular Subarray | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy
 | 3635 | Earliest Finish Time | Medium |
