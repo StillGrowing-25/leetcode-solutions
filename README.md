@@ -39,7 +39,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 |---------|---------|
 | Arrays  | 26      |
 | Strings | 3       |
-| Linked List | 3   |
+| Linked List | 4   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
@@ -67,6 +67,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 88 | Merge Sorted Array | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
 | 136 | Single Number | Easy |
+| 141 | Linked List Cycle | Easy |
 | 169 | Majority Element | Easy |
 | 189 | Rotate Array | Medium |
 | 206 | Reverse Linked List | Easy |
