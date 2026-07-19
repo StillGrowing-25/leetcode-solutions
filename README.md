@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 26      |
+| Arrays  | 27      |
 | Strings | 3       |
 | Linked List | 4   |
 | Stack   | 0       |
@@ -59,6 +59,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 15 | 3Sum | Medium |
 | 26 | Remove Duplicates from Sorted Array | Easy |
 | 27 | Remove Element | Easy |
+| 31 | Next Permutation | Medium |
 | 48 | Rotate Image | Medium |
 | 53 | Maximum Subarray | Medium |
 | 54 | Spiral Matrix | Medium |
