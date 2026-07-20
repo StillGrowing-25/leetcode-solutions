@@ -39,7 +39,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 |---------|---------|
 | Arrays  | 27      |
 | Strings | 3       |
-| Linked List | 4   |
+| Linked List | 5   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
@@ -71,6 +71,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 141 | Linked List Cycle | Easy |
 | 169 | Majority Element | Easy |
 | 189 | Rotate Array | Medium |
+| 203 | Remove Linked List Elements | Easy | 
 | 206 | Reverse Linked List | Easy |
 | 238 | Product of Array Except Itself | Medium |
 | 231 | Power of Two | Easy |
