@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 27      |
+| Arrays  | 28      |
 | Strings | 3       |
 | Linked List | 5   |
 | Stack   | 0       |
@@ -67,6 +67,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 74 | Sort Colors | Medium |
 | 88 | Merge Sorted Array | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
+| 128 | Longest Consecutive Sequence | Medium |
 | 136 | Single Number | Easy |
 | 141 | Linked List Cycle | Easy |
 | 169 | Majority Element | Easy |
