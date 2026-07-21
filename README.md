@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 29      |
+| Arrays  | 30      |
 | Strings | 3       |
 | Linked List | 6   |
 | Stack   | 0       |
@@ -66,6 +66,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 73 | Set Matrix Zeros | Medium |
 | 74 | Sort Colors | Medium |
 | 88 | Merge Sorted Array | Easy |
+| 118 | Pascal's Triangle | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
 | 128 | Longest Consecutive Sequence | Medium |
 | 136 | Single Number | Easy |
