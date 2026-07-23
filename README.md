@@ -23,7 +23,6 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 - Arrays
 - Strings
 - Hashing
-- Two Pointers
 - Stack
 - Queue
 - Linked List
