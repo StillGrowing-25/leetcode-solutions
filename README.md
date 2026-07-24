@@ -38,7 +38,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 |---------|---------|
 | Arrays  | 31      |
 | Strings | 3       |
-| Linked List | 6   |
+| Linked List | 7   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
@@ -84,6 +84,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 485 | Max Consecutive Ones | Easy |
 | 509 | Fibonacci Number | Easy |
 | 560 | Subarray Sum Equals K | Medium |
+| 707 | Design Linked List | Medium |
 | 766 | Toeplitz Matrix | Easy |
 | 867 | Transpose Matrix | Easy |
 | 876 | Middle of the Linked List | Easy |
