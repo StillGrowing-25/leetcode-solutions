@@ -36,7 +36,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 31      |
+| Arrays  | 32      |
 | Strings | 3       |
 | Linked List | 8   |
 | Stack   | 0       |
@@ -56,6 +56,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 4 | Median of Two Sorted Arrays | Hard |
 | 7 | Reverse Integer | Medium |
 | 15 | 3Sum | Medium |
+| 18 | 4Sum | Medium |
 | 26 | Remove Duplicates from Sorted Array | Easy |
 | 27 | Remove Element | Easy |
 | 31 | Next Permutation | Medium |
