@@ -44,7 +44,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Trees   | 0       |
 | Graphs  | 0       |
 | Dynamic Programming | 1 |
-| Recursion| 1      |
+| Recursion | 1      |
 
 # Solved Problems
 
