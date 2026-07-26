@@ -38,7 +38,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 |---------|---------|
 | Arrays  | 33      |
 | Strings | 3       |
-| Linked List | 8   |
+| Linked List | 9   |
 | Stack   | 0       |
 | Queue   | 0       |
 | Trees   | 0       |
@@ -83,7 +83,8 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 231 | Power of Two | Easy |
 | 283 | Move Zeroes | Easy |
 | 344 | Reverse String | Easy |
-| 350 | Intersection of Two Arrays II | Easy |
+| 350 | Intersection of Two Arrays II | Easy 
+| 445 | Add Two Numbers II | Medium |
 | 485 | Max Consecutive Ones | Easy |
 | 509 | Fibonacci Number | Easy |
 | 560 | Subarray Sum Equals K | Medium |
