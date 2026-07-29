@@ -39,7 +39,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Arrays  | 33      |
 | Strings | 3       |
 | Linked List | 9   |
-| Stack   | 0       |
+| Stack   | 1       |
 | Queue   | 0       |
 | Trees   | 0       |
 | Graphs  | 0       |
@@ -57,6 +57,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 7 | Reverse Integer | Medium |
 | 15 | 3Sum | Medium |
 | 18 | 4Sum | Medium |
+| 20 | Valid Parentheses | Easy |
 | 26 | Remove Duplicates from Sorted Array | Easy |
 | 27 | Remove Element | Easy |
 | 31 | Next Permutation | Medium |
