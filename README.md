@@ -23,6 +23,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 - Arrays
 - Strings
 - Hashing
+- Recursion
 - Stack
 - Queue
 - Linked List
@@ -30,7 +31,6 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 - Trees
 - Graphs
 - Dynamic Programming
-- Recursion
 
 # Progress Tracker
 
