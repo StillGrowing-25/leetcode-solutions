@@ -24,6 +24,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 - Strings
 - Hashing
 - Recursion
+- Sorting
 - Stack
 - Queue
 - Linked List
@@ -45,6 +46,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Graphs  | 0       |
 | Dynamic Programming | 1 |
 | Recursion | 1      |
+| Sorting | 1       |
 
 # Solved Problems
 
@@ -94,6 +96,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 766 | Toeplitz Matrix | Easy |
 | 867 | Transpose Matrix | Easy |
 | 876 | Middle of the Linked List | Easy |
+| 912 | Sort an Array | Medium |
 | 918 | Maximum Sum Circular Subarray | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy  |
 | 2149 | Rearrange Array Elements by Sign | Medium |
@@ -112,6 +115,7 @@ leetcode-solutions
 ├── Trees
 ├── Graphs
 ├── Recursion
+├── Sorting
 └── DynamicProgramming
 
 ```
