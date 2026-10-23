@@ -41,7 +41,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 3       |
-| Queue   | 0       |
+| Queue   | 1       |
 | Trees   | 0       |
 | Graphs  | 0       |
 | Dynamic Programming | 1 |
@@ -84,10 +84,11 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 229 | Majority Element II | Medium |
 | 234 | Palindrome Linked List | Easy |
 | 238 | Product of Array Except Itself | Medium |
+| 239 | Sliding Window Maximum | Hard |
 | 231 | Power of Two | Easy |
 | 283 | Move Zeroes | Easy |
 | 344 | Reverse String | Easy |
-| 350 | Intersection of Two Arrays II | Easy 
+| 350 | Intersection of Two Arrays II | Easy |
 | 445 | Add Two Numbers II | Medium |
 | 485 | Max Consecutive Ones | Easy |
 | 509 | Fibonacci Number | Easy |
@@ -118,5 +119,3 @@ leetcode-solutions
 ├── Recursion
 ├── Sorting
 └── DynamicProgramming
-
-```
