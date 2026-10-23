@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 33      |
+| Arrays  | 34      |
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 3       |
@@ -100,6 +100,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 918 | Maximum Sum Circular Subarray | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy  |
 | 2149 | Rearrange Array Elements by Sign | Medium |
+| 2461 | Maximum Sum of Distinct Subarrays With Length K | Medium |
 | 3635 | Earliest Finish Time | Medium |
 | 3751 | Total Waviness of Numbers in Range I | Medium |
 
