@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 35      |
+| Arrays  | 36      |
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 3       |
@@ -100,6 +100,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 876 | Middle of the Linked List | Easy |
 | 912 | Sort an Array | Medium |
 | 918 | Maximum Sum Circular Subarray | Medium |
+| 1343 | Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy  |
 | 2149 | Rearrange Array Elements by Sign | Medium |
 | 2461 | Maximum Sum of Distinct Subarrays With Length K | Medium |
