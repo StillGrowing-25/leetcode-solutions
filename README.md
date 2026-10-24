@@ -76,6 +76,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 136 | Single Number | Easy |
 | 141 | Linked List Cycle | Easy |
 | 142 | Linked List Cycle II | Medium |
+| 150 | Evaluate Reverse Polish Notation | Medium |
 | 155 | Min Stack | Medium |
 | 169 | Majority Element | Easy |
 | 189 | Rotate Array | Medium |
