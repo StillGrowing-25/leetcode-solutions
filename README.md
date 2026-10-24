@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Arrays  | 37      |
+| Arrays  | 38      |
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 3       |
@@ -102,6 +102,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 918 | Maximum Sum Circular Subarray | Medium |
 | 1343 | Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | Medium |
 | 1423 | Maximum Points You Can Obtain from Cards | Medium |
+| 1456 | Maximum Number of Vowels in a Substring of Given Length | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy  |
 | 2149 | Rearrange Array Elements by Sign | Medium |
 | 2461 | Maximum Sum of Distinct Subarrays With Length K | Medium |
