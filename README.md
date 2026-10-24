@@ -40,7 +40,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Arrays  | 38      |
 | Strings | 3       |
 | Linked List | 9   |
-| Stack   | 3       |
+| Stack   | 4       |
 | Queue   | 1       |
 | Trees   | 0       |
 | Graphs  | 0       |
@@ -69,6 +69,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 54 | Spiral Matrix | Medium |
 | 73 | Set Matrix Zeros | Medium |
 | 74 | Sort Colors | Medium |
+| 84 | Largest Rectangle in Histogram | Hard |
 | 88 | Merge Sorted Array | Easy |
 | 118 | Pascal's Triangle | Easy |
 | 121 | Best Time to Buy and Sell Stock | Easy |
