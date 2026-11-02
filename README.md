@@ -38,7 +38,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Topic | Problems Solved |
 |---------|---------|
 | Math    | 1       |
-| Arrays  | 38      |
+| Arrays  | 39      |
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 4       |
@@ -98,6 +98,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 560 | Subarray Sum Equals K | Medium |
 | 643 | Maximum Average Subarray I | Easy |
 | 707 | Design Linked List | Medium |
+| 724 | Find Pivot Index | Easy |
 | 766 | Toeplitz Matrix | Easy |
 | 867 | Transpose Matrix | Easy |
 | 876 | Middle of the Linked List | Easy |
