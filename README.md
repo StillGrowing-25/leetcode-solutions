@@ -37,6 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
+| Math    | 1       |
 | Arrays  | 38      |
 | Strings | 3       |
 | Linked List | 9   |
@@ -108,6 +109,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 1752 | Check if Array is Sorted and Rotated | Easy  |
 | 2149 | Rearrange Array Elements by Sign | Medium |
 | 2461 | Maximum Sum of Distinct Subarrays With Length K | Medium |
+| 2485 | Find pivot integer | Easy |
 | 3635 | Earliest Finish Time | Medium |
 | 3751 | Total Waviness of Numbers in Range I | Medium |
 
@@ -116,6 +118,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 leetcode-solutions
 │
 ├── Arrays
+
 ├── Strings
 ├── LinkedList
 ├── Stack
@@ -124,4 +127,5 @@ leetcode-solutions
 ├── Graphs
 ├── Recursion
 ├── Sorting
+├── Math
 └── DynamicProgramming
