@@ -38,7 +38,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Topic | Problems Solved |
 |---------|---------|
 | Math    | 1       |
-| Arrays  | 41      |
+| Arrays  | 42      |
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 4       |
@@ -109,6 +109,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 1456 | Maximum Number of Vowels in a Substring of Given Length | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy  |
 | 1854 | Maximum Population Year| Easy  |
+| 2055 | Plates between Candles | Medium |
 | 2149 | Rearrange Array Elements by Sign | Medium |
 | 2461 | Maximum Sum of Distinct Subarrays With Length K | Medium |
 | 2485 | Find pivot integer | Easy |
