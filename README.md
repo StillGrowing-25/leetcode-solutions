@@ -38,7 +38,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Topic | Problems Solved |
 |---------|---------|
 | Math    | 2       |
-| Arrays  | 44      |
+| Arrays  | 45      |
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 5       |
@@ -112,6 +112,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 1423 | Maximum Points You Can Obtain from Cards | Medium |
 | 1456 | Maximum Number of Vowels in a Substring of Given Length | Medium |
 | 1752 | Check if Array is Sorted and Rotated | Easy  |
+| 1838 | Frequency of the Most Frequent Element | Medium |
 | 1854 | Maximum Population Year| Easy  |
 | 2055 | Plates between Candles | Medium |
 | 2149 | Rearrange Array Elements by Sign | Medium |
