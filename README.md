@@ -37,7 +37,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 
 | Topic | Problems Solved |
 |---------|---------|
-| Math    | 1       |
+| Math    | 2       |
 | Arrays  | 44      |
 | Strings | 3       |
 | Linked List | 9   |
@@ -84,6 +84,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 189 | Rotate Array | Medium |
 | 203 | Remove Linked List Elements | Easy | 
 | 206 | Reverse Linked List | Easy |
+| 227 | Basic Calculator II | Medium |
 | 229 | Majority Element II | Medium |
 | 234 | Palindrome Linked List | Easy |
 | 238 | Product of Array Except Itself | Medium |
