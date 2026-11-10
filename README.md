@@ -41,7 +41,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Arrays  | 44      |
 | Strings | 3       |
 | Linked List | 9   |
-| Stack   | 4       |
+| Stack   | 5       |
 | Queue   | 1       |
 | Trees   | 0       |
 | Graphs  | 0       |
@@ -90,6 +90,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 238 | Product of Array Except Itself | Medium |
 | 239 | Sliding Window Maximum | Hard |
 | 231 | Power of Two | Easy |
+| 232 | Implement Queue using Stacks | Easy |
 | 283 | Move Zeroes | Easy |
 | 344 | Reverse String | Easy |
 | 350 | Intersection of Two Arrays II | Easy |
