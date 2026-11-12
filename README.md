@@ -38,7 +38,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | Topic | Problems Solved |
 |---------|---------|
 | Math    | 2       |
-| Arrays  | 45      |
+| Arrays  | 46      |
 | Strings | 3       |
 | Linked List | 9   |
 | Stack   | 5       |
@@ -98,6 +98,7 @@ The goal is to strengthen my problem-solving skills, master Data Structures & Al
 | 485 | Max Consecutive Ones | Easy |
 | 509 | Fibonacci Number | Easy |
 | 560 | Subarray Sum Equals K | Medium |
+| 641 | Design Circular Deque | Medium |
 | 643 | Maximum Average Subarray I | Easy |
 | 707 | Design Linked List | Medium |
 | 724 | Find Pivot Index | Easy |
